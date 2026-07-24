@@ -6,8 +6,9 @@ class Calculator{
     System.out.println("Enter no1:");
     int a=sc.nextInt();
     System.out.println("enter no2:");
-    char b=sc.next();
+    int b=sc.nextInt();
     System.out.println("Enter op:");
+    char op = sc.next().charAt(0);
     switch(op){
       case '+':
         System.out.println("Add :"+(a+b));
