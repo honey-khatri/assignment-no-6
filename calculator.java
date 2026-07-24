@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Calculator{
   public dtatic void main(String[] args){
     Scanner sc=new Scanner(System.in);
